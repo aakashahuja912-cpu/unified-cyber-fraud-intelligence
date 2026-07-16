@@ -1,0 +1,6 @@
+{
+  "name": "Cybersecurity & Fraud Intelligence Platform",
+  "description": "AI-driven correlation of cybersecurity telemetry and banking transaction behavior with quantum risk monitoring and explainable threat intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

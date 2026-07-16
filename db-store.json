@@ -1,0 +1,3138 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "email": "admin@apexbank.com",
+      "role": "Admin",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "createdAt": "2026-06-16T07:00:19.451Z"
+    },
+    {
+      "id": "u2",
+      "username": "analyst_sec",
+      "email": "sec.analyst@apexbank.com",
+      "role": "Security Analyst",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "createdAt": "2026-06-21T07:00:19.452Z"
+    },
+    {
+      "id": "u3",
+      "username": "analyst_fraud",
+      "email": "fraud.analyst@apexbank.com",
+      "role": "Fraud Analyst",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "createdAt": "2026-06-26T07:00:19.452Z"
+    },
+    {
+      "id": "u4",
+      "username": "auditor_external",
+      "email": "external.auditor@apexbank.com",
+      "role": "Auditor",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "createdAt": "2026-07-01T07:00:19.452Z"
+    },
+    {
+      "id": "u5",
+      "username": "aakash-ahu",
+      "email": "aakashahuja912@gmail.com",
+      "role": "Security Analyst",
+      "passwordHash": "1221f2b60feb644f126d0f9d6e201b0002d5e49817e8cf441f02bc17f7e76d86",
+      "createdAt": "2026-07-16T07:13:19.759Z"
+    },
+    {
+      "id": "u6",
+      "username": "aakash_ahu",
+      "email": "25f3005152@ds.study.iitm.ac.in",
+      "role": "Security Analyst",
+      "passwordHash": "1221f2b60feb644f126d0f9d6e201b0002d5e49817e8cf441f02bc17f7e76d86",
+      "createdAt": "2026-07-16T07:14:53.211Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx13907",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 30698,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Shopping",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:54:42.807Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_2ja9yq4o",
+      "ipAddress": "192.168.1.35",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx65296",
+      "userId": "u_gen",
+      "username": "Tony Stark",
+      "amount": 309,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Shopping",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:54:33.451Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_x3dprguo",
+      "ipAddress": "192.168.1.106",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx27872",
+      "userId": "u_gen",
+      "username": "Tony Stark",
+      "amount": 136,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Wire Transfer",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:54:33.356Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_pqtlpetj",
+      "ipAddress": "192.168.1.65",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx5479",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 460,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Shopping",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:54:27.554Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_67bl0hci",
+      "ipAddress": "192.168.1.72",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx1948",
+      "userId": "u_gen",
+      "username": "James Bond",
+      "amount": 133,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Wire Transfer",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:54:21.451Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_u36j3ol4",
+      "ipAddress": "192.168.1.4",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx77021",
+      "userId": "u_gen",
+      "username": "Bruce Wayne",
+      "amount": 25326,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Digital Purchase",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:54:09.450Z",
+      "location": "Seattle, USA",
+      "deviceFingerprint": "dev_p1b1gc5d",
+      "ipAddress": "192.168.1.136",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx60720",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 225,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Investment",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:53:45.345Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_sadw81bl",
+      "ipAddress": "192.168.1.27",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx10246",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 81,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Shopping",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:53:30.802Z",
+      "location": "London, UK",
+      "deviceFingerprint": "dev_xcxs6key",
+      "ipAddress": "192.168.1.109",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx11779",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 376,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Wire Transfer",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:53:15.549Z",
+      "location": "London, UK",
+      "deviceFingerprint": "dev_tv7a4iiy",
+      "ipAddress": "192.168.1.7",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx67513",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 351,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Wire Transfer",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:53:03.548Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_rrdk8bxc",
+      "ipAddress": "192.168.1.15",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx36737",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 194,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Investment",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:52:51.547Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_l2rs9tur",
+      "ipAddress": "192.168.1.8",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx24235",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 319,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Infrastructure",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:52:42.801Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_108bzwb3",
+      "ipAddress": "192.168.1.128",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx89799",
+      "userId": "u_gen",
+      "username": "Bruce Wayne",
+      "amount": 357,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Infrastructure",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:52:15.546Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_p48shq7m",
+      "ipAddress": "192.168.1.49",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx22662",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 30189,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Infrastructure",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:52:09.339Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_y6bsm6by",
+      "ipAddress": "192.168.1.141",
+      "isQuantumSensitive": true,
+      "encryptionType": "RSA-1024"
+    },
+    {
+      "id": "tx25233",
+      "userId": "u_gen",
+      "username": "Tony Stark",
+      "amount": 248,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Infrastructure",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:51:57.338Z",
+      "location": "Seattle, USA",
+      "deviceFingerprint": "dev_zu7gkhm7",
+      "ipAddress": "192.168.1.203",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx42633",
+      "userId": "u_gen",
+      "username": "Bruce Wayne",
+      "amount": 47084,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Shopping",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:51:45.338Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_34gyb9xe",
+      "ipAddress": "192.168.1.193",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx40714",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 448,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Digital Purchase",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:51:42.793Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_8ztf4zgp",
+      "ipAddress": "192.168.1.243",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx18349",
+      "userId": "u_gen",
+      "username": "Tony Stark",
+      "amount": 403,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Digital Purchase",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:51:30.793Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_c92fhbw0",
+      "ipAddress": "192.168.1.197",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx9813",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 17153,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Investment",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:51:06.792Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_k3h3gerp",
+      "ipAddress": "192.168.1.191",
+      "isQuantumSensitive": true,
+      "encryptionType": "RSA-1024"
+    },
+    {
+      "id": "tx63581",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 17770,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Digital Purchase",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:50:57.438Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_fpdtrna8",
+      "ipAddress": "192.168.1.21",
+      "isQuantumSensitive": true,
+      "encryptionType": "RSA-1024"
+    },
+    {
+      "id": "tx11411",
+      "userId": "u_gen",
+      "username": "James Bond",
+      "amount": 52,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Shopping",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:50:33.332Z",
+      "location": "London, UK",
+      "deviceFingerprint": "dev_ciehvyfy",
+      "ipAddress": "192.168.1.88",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx79845",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 430,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Shopping",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:50:30.790Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_ti795jzr",
+      "ipAddress": "192.168.1.124",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx35040",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 15868,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Investment",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:50:09.330Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_mypmykju",
+      "ipAddress": "192.168.1.82",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx68496",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 212,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Digital Purchase",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:50:06.789Z",
+      "location": "London, UK",
+      "deviceFingerprint": "dev_zov6a9kn",
+      "ipAddress": "192.168.1.220",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx69350",
+      "userId": "u_gen",
+      "username": "Bruce Wayne",
+      "amount": 43025,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Infrastructure",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:50:03.538Z",
+      "location": "Seattle, USA",
+      "deviceFingerprint": "dev_o0aqe6yi",
+      "ipAddress": "192.168.1.194",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx79906",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 157,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Investment",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:49:54.787Z",
+      "location": "Seattle, USA",
+      "deviceFingerprint": "dev_nn323bgh",
+      "ipAddress": "192.168.1.87",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx33316",
+      "userId": "u_gen",
+      "username": "James Bond",
+      "amount": 72,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Shopping",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:49:45.433Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_bgoyj74r",
+      "ipAddress": "192.168.1.119",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx8393",
+      "userId": "u_gen",
+      "username": "James Bond",
+      "amount": 21021,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Shopping",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:49:42.785Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_bwctu150",
+      "ipAddress": "192.168.1.167",
+      "isQuantumSensitive": true,
+      "encryptionType": "RSA-1024"
+    },
+    {
+      "id": "tx32281",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 128,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Digital Purchase",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:49:39.533Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_yqlln51k",
+      "ipAddress": "192.168.1.156",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx11379",
+      "userId": "u_gen",
+      "username": "Tony Stark",
+      "amount": 25,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Digital Purchase",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:49:09.431Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_7obc2m0b",
+      "ipAddress": "192.168.1.248",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx71419",
+      "userId": "u_gen",
+      "username": "James Bond",
+      "amount": 27745,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Wire Transfer",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:48:57.430Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_e5t0va4d",
+      "ipAddress": "192.168.1.99",
+      "isQuantumSensitive": true,
+      "encryptionType": "RSA-1024"
+    },
+    {
+      "id": "tx1207",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 124,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Infrastructure",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:48:45.324Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_ynbvg2lq",
+      "ipAddress": "192.168.1.137",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx70164",
+      "userId": "u_gen",
+      "username": "James Bond",
+      "amount": 13101,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Wire Transfer",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:48:42.781Z",
+      "location": "Seattle, USA",
+      "deviceFingerprint": "dev_lu49g5qw",
+      "ipAddress": "192.168.1.215",
+      "isQuantumSensitive": true,
+      "encryptionType": "RSA-1024"
+    },
+    {
+      "id": "tx60078",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 431,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Investment",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:48:27.532Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_gv26fxy3",
+      "ipAddress": "192.168.1.171",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx27696",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 202,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Shopping",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:48:03.531Z",
+      "location": "London, UK",
+      "deviceFingerprint": "dev_ygnd899o",
+      "ipAddress": "192.168.1.125",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx90954",
+      "userId": "u_gen",
+      "username": "Tony Stark",
+      "amount": 181,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Investment",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:47:57.428Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_usn7pjds",
+      "ipAddress": "192.168.1.165",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx73073",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 26248,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Shopping",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:47:54.777Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_cgqrgehc",
+      "ipAddress": "192.168.1.41",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx25713",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 440,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Wire Transfer",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:47:51.531Z",
+      "location": "London, UK",
+      "deviceFingerprint": "dev_gr5rnvqa",
+      "ipAddress": "192.168.1.104",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx63882",
+      "userId": "u_gen",
+      "username": "Bruce Wayne",
+      "amount": 274,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Wire Transfer",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:47:45.319Z",
+      "location": "London, UK",
+      "deviceFingerprint": "dev_7w1pet2y",
+      "ipAddress": "192.168.1.3",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx52755",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 173,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Digital Purchase",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:47:39.528Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_69j237s3",
+      "ipAddress": "192.168.1.233",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx98452",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 101,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Shopping",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:47:33.426Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_lwlz42yk",
+      "ipAddress": "192.168.1.219",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx13404",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 383,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Infrastructure",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:47:27.527Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_p0r9g3g7",
+      "ipAddress": "192.168.1.37",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx1450",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 439,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Investment",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:47:21.426Z",
+      "location": "Seattle, USA",
+      "deviceFingerprint": "dev_5ixxh7sq",
+      "ipAddress": "192.168.1.51",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx25499",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 18910,
+      "currency": "USD",
+      "merchant": "Target Store",
+      "category": "Investment",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:47:18.776Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_djkipc2w",
+      "ipAddress": "192.168.1.86",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx29470",
+      "userId": "u_gen",
+      "username": "Emma Watson",
+      "amount": 41290,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Shopping",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:47:15.529Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_a76usz2v",
+      "ipAddress": "192.168.1.251",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx59446",
+      "userId": "u_gen",
+      "username": "Bruce Wayne",
+      "amount": 39221,
+      "currency": "USD",
+      "merchant": "AWS Billing",
+      "category": "Digital Purchase",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:47:09.426Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_dzkij31o",
+      "ipAddress": "192.168.1.67",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx63156",
+      "userId": "u_gen",
+      "username": "Diana Prince",
+      "amount": 13189,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Investment",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:47:03.527Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_wfsm4ptu",
+      "ipAddress": "192.168.1.15",
+      "isQuantumSensitive": true,
+      "encryptionType": "RSA-1024"
+    },
+    {
+      "id": "tx71628",
+      "userId": "u_gen",
+      "username": "Robert Downey",
+      "amount": 37477,
+      "currency": "USD",
+      "merchant": "CryptoEsc OTC",
+      "category": "Digital Purchase",
+      "status": "Blocked",
+      "timestamp": "2026-07-16T07:47:03.526Z",
+      "location": "Zürich, CH",
+      "deviceFingerprint": "dev_gdrsmivp",
+      "ipAddress": "192.168.1.162",
+      "isQuantumSensitive": true,
+      "encryptionType": "3DES"
+    },
+    {
+      "id": "tx61702",
+      "userId": "u_gen",
+      "username": "Tony Stark",
+      "amount": 430,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Infrastructure",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:46:57.318Z",
+      "location": "Unknown IP",
+      "deviceFingerprint": "dev_86mfhbg4",
+      "ipAddress": "192.168.1.252",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    },
+    {
+      "id": "tx87571",
+      "userId": "u_gen",
+      "username": "Tony Stark",
+      "amount": 266,
+      "currency": "USD",
+      "merchant": "Apple AppStore",
+      "category": "Shopping",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:46:54.775Z",
+      "location": "London, UK",
+      "deviceFingerprint": "dev_07o9qjdj",
+      "ipAddress": "192.168.1.29",
+      "isQuantumSensitive": false,
+      "encryptionType": "Kyber-1024"
+    },
+    {
+      "id": "tx76294",
+      "userId": "u_gen",
+      "username": "James Bond",
+      "amount": 98,
+      "currency": "USD",
+      "merchant": "Global Capital Wire",
+      "category": "Infrastructure",
+      "status": "Completed",
+      "timestamp": "2026-07-16T07:46:51.527Z",
+      "location": "Reykjavik, IS",
+      "deviceFingerprint": "dev_sh3l8t8a",
+      "ipAddress": "192.168.1.70",
+      "isQuantumSensitive": false,
+      "encryptionType": "AES-256-GCM"
+    }
+  ],
+  "fraudAnalysis": [
+    {
+      "id": "fa12438",
+      "transactionId": "tx13907",
+      "userId": "u_gen",
+      "fraudProbability": 0.97,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:54:42.807Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa99465",
+      "transactionId": "tx65296",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:54:33.451Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa26402",
+      "transactionId": "tx27872",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:54:33.356Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa52844",
+      "transactionId": "tx5479",
+      "userId": "u_gen",
+      "fraudProbability": 0.7,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Suspicious Geographic Endpoint"
+      ],
+      "analyzedAt": "2026-07-16T07:54:27.554Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa93149",
+      "transactionId": "tx1948",
+      "userId": "u_gen",
+      "fraudProbability": 0.7,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Suspicious Geographic Endpoint"
+      ],
+      "analyzedAt": "2026-07-16T07:54:21.451Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa4228",
+      "transactionId": "tx77021",
+      "userId": "u_gen",
+      "fraudProbability": 0.97,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:54:09.450Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa99425",
+      "transactionId": "tx60720",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:53:45.345Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa87598",
+      "transactionId": "tx10246",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:53:30.802Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa63714",
+      "transactionId": "tx11779",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:53:15.549Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa42878",
+      "transactionId": "tx67513",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:53:03.548Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa72162",
+      "transactionId": "tx36737",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:52:51.547Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa93995",
+      "transactionId": "tx24235",
+      "userId": "u_gen",
+      "fraudProbability": 0.75,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Suspicious Geographic Endpoint"
+      ],
+      "analyzedAt": "2026-07-16T07:52:42.801Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa16996",
+      "transactionId": "tx89799",
+      "userId": "u_gen",
+      "fraudProbability": 0.75,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Suspicious Geographic Endpoint"
+      ],
+      "analyzedAt": "2026-07-16T07:52:15.546Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa67219",
+      "transactionId": "tx22662",
+      "userId": "u_gen",
+      "fraudProbability": 0.99,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Suspicious Geographic Endpoint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:52:09.339Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa57209",
+      "transactionId": "tx25233",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:51:57.339Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa96792",
+      "transactionId": "tx42633",
+      "userId": "u_gen",
+      "fraudProbability": 0.97,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:51:45.338Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa23170",
+      "transactionId": "tx40714",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:51:42.793Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa23081",
+      "transactionId": "tx18349",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:51:30.793Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa37791",
+      "transactionId": "tx9813",
+      "userId": "u_gen",
+      "fraudProbability": 0.95,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Elevated Transfer Volume",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:51:06.792Z",
+      "shapValues": {
+        "Transaction Amount": 0.16999999999999998,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa99680",
+      "transactionId": "tx63581",
+      "userId": "u_gen",
+      "fraudProbability": 0.95,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Elevated Transfer Volume",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:50:57.438Z",
+      "shapValues": {
+        "Transaction Amount": 0.16999999999999998,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa57329",
+      "transactionId": "tx11411",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:50:33.332Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa43049",
+      "transactionId": "tx79845",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:50:30.791Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa58672",
+      "transactionId": "tx35040",
+      "userId": "u_gen",
+      "fraudProbability": 0.95,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Elevated Transfer Volume",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:50:09.330Z",
+      "shapValues": {
+        "Transaction Amount": 0.16999999999999998,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa69160",
+      "transactionId": "tx68496",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:50:06.789Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa200",
+      "transactionId": "tx69350",
+      "userId": "u_gen",
+      "fraudProbability": 0.97,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:50:03.538Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa84705",
+      "transactionId": "tx79906",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:49:54.787Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa24387",
+      "transactionId": "tx33316",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:49:45.434Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa35085",
+      "transactionId": "tx8393",
+      "userId": "u_gen",
+      "fraudProbability": 0.99,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Suspicious Geographic Endpoint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:49:42.786Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa47800",
+      "transactionId": "tx32281",
+      "userId": "u_gen",
+      "fraudProbability": 0.75,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Suspicious Geographic Endpoint"
+      ],
+      "analyzedAt": "2026-07-16T07:49:39.534Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa79979",
+      "transactionId": "tx11379",
+      "userId": "u_gen",
+      "fraudProbability": 0.75,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Suspicious Geographic Endpoint"
+      ],
+      "analyzedAt": "2026-07-16T07:49:09.431Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa52892",
+      "transactionId": "tx71419",
+      "userId": "u_gen",
+      "fraudProbability": 0.97,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:48:57.430Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa5718",
+      "transactionId": "tx1207",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:48:45.324Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa18787",
+      "transactionId": "tx70164",
+      "userId": "u_gen",
+      "fraudProbability": 0.95,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Elevated Transfer Volume",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:48:42.781Z",
+      "shapValues": {
+        "Transaction Amount": 0.16999999999999998,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa99722",
+      "transactionId": "tx60078",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:48:27.532Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa99797",
+      "transactionId": "tx27696",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:48:03.531Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa48170",
+      "transactionId": "tx90954",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:47:57.428Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa92231",
+      "transactionId": "tx73073",
+      "userId": "u_gen",
+      "fraudProbability": 0.97,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:47:54.777Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa42618",
+      "transactionId": "tx25713",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:47:51.531Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa11812",
+      "transactionId": "tx63882",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:47:45.320Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa86967",
+      "transactionId": "tx52755",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:47:39.528Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa81573",
+      "transactionId": "tx98452",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:47:33.427Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa6248",
+      "transactionId": "tx13404",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:47:27.527Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa65215",
+      "transactionId": "tx1450",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:47:21.426Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    },
+    {
+      "id": "fa98481",
+      "transactionId": "tx25499",
+      "userId": "u_gen",
+      "fraudProbability": 0.98,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Elevated Transfer Volume",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Suspicious Geographic Endpoint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:47:18.776Z",
+      "shapValues": {
+        "Transaction Amount": 0.16999999999999998,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa56922",
+      "transactionId": "tx29470",
+      "userId": "u_gen",
+      "fraudProbability": 0.99,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Suspicious Geographic Endpoint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:47:15.529Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa33016",
+      "transactionId": "tx59446",
+      "userId": "u_gen",
+      "fraudProbability": 0.97,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:47:09.427Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa11265",
+      "transactionId": "tx63156",
+      "userId": "u_gen",
+      "fraudProbability": 0.95,
+      "isFlagged": true,
+      "patternsDetected": [
+        "Elevated Transfer Volume",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:47:03.528Z",
+      "shapValues": {
+        "Transaction Amount": 0.16999999999999998,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa31231",
+      "transactionId": "tx71628",
+      "userId": "u_gen",
+      "fraudProbability": 0.99,
+      "isFlagged": true,
+      "patternsDetected": [
+        "High-Value Outbound Transaction",
+        "Pre-Transaction Brute-Force Activity",
+        "Unrecognized Device Fingerprint",
+        "Suspicious Geographic Endpoint",
+        "Quantum-Vulnerable Session Encryption"
+      ],
+      "analyzedAt": "2026-07-16T07:47:03.526Z",
+      "shapValues": {
+        "Transaction Amount": 0.33,
+        "Login Security State": 0.27,
+        "Device Security Rating": 0.25,
+        "Geo-Location Distance": 0.3,
+        "Cryptographic Strength": 0.16
+      }
+    },
+    {
+      "id": "fa46827",
+      "transactionId": "tx61702",
+      "userId": "u_gen",
+      "fraudProbability": 0.53,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:46:57.318Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": 0.01
+      }
+    },
+    {
+      "id": "fa39659",
+      "transactionId": "tx87571",
+      "userId": "u_gen",
+      "fraudProbability": 0.47,
+      "isFlagged": false,
+      "patternsDetected": [],
+      "analyzedAt": "2026-07-16T07:46:54.775Z",
+      "shapValues": {
+        "Transaction Amount": 0.020000000000000004,
+        "Login Security State": 0.01,
+        "Device Security Rating": -0.020000000000000004,
+        "Geo-Location Distance": 0.02,
+        "Cryptographic Strength": -0.07
+      }
+    }
+  ],
+  "threatAlerts": [
+    {
+      "id": "th9945",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $30698 flagged for user Emma Watson. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:54:42.807Z",
+      "status": "Open"
+    },
+    {
+      "id": "th7010",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $460 flagged for user Diana Prince. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:54:27.554Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9787",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $133 flagged for user James Bond. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:54:21.451Z",
+      "status": "Open"
+    },
+    {
+      "id": "th8331",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Seattle, USA",
+      "message": "Suspicious transaction of $25326 flagged for user Bruce Wayne. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:54:09.450Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4924",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.116",
+      "message": "Multiple failed login attempts for admin from London, UK",
+      "timestamp": "2026-07-16T07:53:45.449Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9234",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.130",
+      "message": "Multiple failed login attempts for user_john from New York, USA",
+      "timestamp": "2026-07-16T07:53:33.344Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1097",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $319 flagged for user Robert Downey. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:52:42.801Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4674",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $357 flagged for user Bruce Wayne. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:52:15.546Z",
+      "status": "Open"
+    },
+    {
+      "id": "th8606",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $30189 flagged for user Emma Watson. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:52:09.339Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1465",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $47084 flagged for user Bruce Wayne. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:51:45.338Z",
+      "status": "Open"
+    },
+    {
+      "id": "th5231",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.26",
+      "message": "Multiple failed login attempts for user_john from Beijing, CN",
+      "timestamp": "2026-07-16T07:51:39.543Z",
+      "status": "Open"
+    },
+    {
+      "id": "th7508",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.124",
+      "message": "Multiple failed login attempts for admin from Moscow, RU",
+      "timestamp": "2026-07-16T07:51:09.439Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2473",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $17153 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:51:06.792Z",
+      "status": "Open"
+    },
+    {
+      "id": "th8228",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $17770 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:50:57.438Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4502",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.85",
+      "message": "Multiple failed login attempts for sarah_jenkins from Beijing, CN",
+      "timestamp": "2026-07-16T07:50:21.332Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1278",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.193",
+      "message": "Multiple failed login attempts for admin from Beijing, CN",
+      "timestamp": "2026-07-16T07:50:15.537Z",
+      "status": "Open"
+    },
+    {
+      "id": "th234",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $15868 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:50:09.330Z",
+      "status": "Open"
+    },
+    {
+      "id": "th6766",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Seattle, USA",
+      "message": "Suspicious transaction of $43025 flagged for user Bruce Wayne. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:50:03.538Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2635",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $21021 flagged for user James Bond. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:49:42.786Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1792",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $128 flagged for user Diana Prince. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:49:39.534Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1830",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $25 flagged for user Tony Stark. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:49:09.431Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9922",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $27745 flagged for user James Bond. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:48:57.430Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9457",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Seattle, USA",
+      "message": "Suspicious transaction of $13101 flagged for user James Bond. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:48:42.781Z",
+      "status": "Open"
+    },
+    {
+      "id": "th3016",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $26248 flagged for user Diana Prince. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:47:54.777Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9415",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $18910 flagged for user Emma Watson. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:47:18.776Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1718",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $41290 flagged for user Emma Watson. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:47:15.529Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4732",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $39221 flagged for user Bruce Wayne. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:47:09.427Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4734",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $13189 flagged for user Diana Prince. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:47:03.528Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2588",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $37477 flagged for user Robert Downey. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:47:03.526Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9512",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "London, UK",
+      "message": "Suspicious transaction of $34272 flagged for user Diana Prince. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:46:09.314Z",
+      "status": "Open"
+    },
+    {
+      "id": "th7994",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $44113 flagged for user Emma Watson. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:46:06.772Z",
+      "status": "Open"
+    },
+    {
+      "id": "th3692",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.54",
+      "message": "Multiple failed login attempts for admin from London, UK",
+      "timestamp": "2026-07-16T07:45:15.520Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2741",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $35762 flagged for user Robert Downey. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:44:57.308Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2584",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.1",
+      "message": "Multiple failed login attempts for user_john from Beijing, CN",
+      "timestamp": "2026-07-16T07:44:15.514Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2293",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.117",
+      "message": "Multiple failed login attempts for sarah_jenkins from New York, USA",
+      "timestamp": "2026-07-16T07:44:09.306Z",
+      "status": "Open"
+    },
+    {
+      "id": "th7681",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.218",
+      "message": "Multiple failed login attempts for sarah_jenkins from Moscow, RU",
+      "timestamp": "2026-07-16T07:43:51.512Z",
+      "status": "Open"
+    },
+    {
+      "id": "th6357",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $271 flagged for user Tony Stark. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:42:21.300Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4486",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $35336 flagged for user Diana Prince. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:42:15.514Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9152",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $408 flagged for user Bruce Wayne. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:41:51.514Z",
+      "status": "Open"
+    },
+    {
+      "id": "th7901",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $264 flagged for user Bruce Wayne. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:41:15.502Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4355",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $37303 flagged for user Bruce Wayne. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:40:33.293Z",
+      "status": "Open"
+    },
+    {
+      "id": "th822",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.113",
+      "message": "Multiple failed login attempts for admin from Moscow, RU",
+      "timestamp": "2026-07-16T07:38:45.395Z",
+      "status": "Open"
+    },
+    {
+      "id": "th5625",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $8217 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:38:39.506Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2318",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $21801 flagged for user Diana Prince. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:38:21.393Z",
+      "status": "Open"
+    },
+    {
+      "id": "th6592",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.121",
+      "message": "Multiple failed login attempts for sarah_jenkins from New York, USA",
+      "timestamp": "2026-07-16T07:37:57.392Z",
+      "status": "Open"
+    },
+    {
+      "id": "th6106",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "London, UK",
+      "message": "Suspicious transaction of $6344 flagged for user Emma Watson. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:37:45.282Z",
+      "status": "Resolved",
+      "assignedTo": "aakash-ahu"
+    },
+    {
+      "id": "th8329",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $12869 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:37:39.500Z",
+      "status": "Open"
+    },
+    {
+      "id": "th583",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $30292 flagged for user Robert Downey. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:37:33.280Z",
+      "status": "Open"
+    },
+    {
+      "id": "th7177",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $5947 flagged for user James Bond. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:37:27.485Z",
+      "status": "Open"
+    },
+    {
+      "id": "th5914",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $41800 flagged for user James Bond. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:36:51.483Z",
+      "status": "Open"
+    },
+    {
+      "id": "th5505",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $376 flagged for user Bruce Wayne. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:36:21.390Z",
+      "status": "Open"
+    },
+    {
+      "id": "th8512",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $307 flagged for user Emma Watson. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:36:15.498Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4416",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $9988 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:35:09.272Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4695",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "London, UK",
+      "message": "Suspicious transaction of $35057 flagged for user Emma Watson. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:34:45.271Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9607",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $14830 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:34:39.475Z",
+      "status": "Open"
+    },
+    {
+      "id": "th70",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "London, UK",
+      "message": "Suspicious transaction of $8283 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:34:21.270Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2688",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $11025 flagged for user Robert Downey. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:33:35.351Z",
+      "status": "Open"
+    },
+    {
+      "id": "th6347",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $31 flagged for user Bruce Wayne. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:33:11.349Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1322",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.87",
+      "message": "Multiple failed login attempts for guest_user from New York, USA",
+      "timestamp": "2026-07-16T07:30:59.340Z",
+      "status": "Resolved",
+      "assignedTo": "aakash-ahu"
+    },
+    {
+      "id": "th4024",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.46",
+      "message": "Multiple failed login attempts for admin from Beijing, CN",
+      "timestamp": "2026-07-16T07:30:11.338Z",
+      "status": "Open"
+    },
+    {
+      "id": "th6652",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.188",
+      "message": "Multiple failed login attempts for admin from New York, USA",
+      "timestamp": "2026-07-16T07:29:23.337Z",
+      "status": "Open"
+    },
+    {
+      "id": "th9713",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $215 flagged for user Emma Watson. Patterns: Suspicious Geographic Endpoint",
+      "timestamp": "2026-07-16T07:28:47.319Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2596",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Zürich, CH",
+      "message": "Suspicious transaction of $44346 flagged for user James Bond. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Suspicious Geographic Endpoint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:28:35.318Z",
+      "status": "Open"
+    },
+    {
+      "id": "th5913",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.235",
+      "message": "Multiple failed login attempts for sarah_jenkins from New York, USA",
+      "timestamp": "2026-07-16T07:28:11.316Z",
+      "status": "Open"
+    },
+    {
+      "id": "th844",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Seattle, USA",
+      "message": "Suspicious transaction of $34987 flagged for user Diana Prince. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:26:11.307Z",
+      "status": "Open"
+    },
+    {
+      "id": "th7816",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Seattle, USA",
+      "message": "Suspicious transaction of $15034 flagged for user Diana Prince. Patterns: Elevated Transfer Volume, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:25:47.306Z",
+      "status": "Open"
+    },
+    {
+      "id": "th4036",
+      "type": "Unusual Login Pattern",
+      "severity": "Medium",
+      "source": "203.0.113.180",
+      "message": "Multiple failed login attempts for admin from London, UK",
+      "timestamp": "2026-07-16T07:25:35.304Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1673",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Reykjavik, IS",
+      "message": "Suspicious transaction of $39161 flagged for user Diana Prince. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:22:05.884Z",
+      "status": "Open"
+    },
+    {
+      "id": "th2896",
+      "type": "Transaction Fraud Indicator",
+      "severity": "High",
+      "source": "Unknown IP",
+      "message": "Suspicious transaction of $44752 flagged for user Tony Stark. Patterns: High-Value Outbound Transaction, Pre-Transaction Brute-Force Activity, Unrecognized Device Fingerprint, Quantum-Vulnerable Session Encryption",
+      "timestamp": "2026-07-16T07:21:29.881Z",
+      "status": "Open"
+    },
+    {
+      "id": "th1",
+      "type": "Brute Force Attack",
+      "severity": "High",
+      "source": "203.0.113.111",
+      "message": "15 failed login attempts for user admin within 2 minutes",
+      "timestamp": "2026-07-16T06:30:19.452Z",
+      "status": "Investigating",
+      "assignedTo": "analyst_sec"
+    },
+    {
+      "id": "th2",
+      "type": "Impossible Travel",
+      "severity": "Critical",
+      "source": "Lagos, Nigeria / New York, USA",
+      "message": "User Sarah Jenkins logged in from New York 10 mins ago, then from Lagos, Nigeria",
+      "timestamp": "2026-07-16T06:00:19.452Z",
+      "status": "Open"
+    },
+    {
+      "id": "th3",
+      "type": "Quantum Harvesting Threat",
+      "severity": "Medium",
+      "source": "Core VPN Gateway",
+      "message": "Massive transfer of older encrypted data payloads signed with RSA-1024 (vulnerable to quantum decrypters)",
+      "timestamp": "2026-07-16T05:00:19.452Z",
+      "status": "Open"
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "rs1",
+      "userId": "u5",
+      "username": "Sarah Jenkins",
+      "score": 92,
+      "tier": "CRITICAL",
+      "telemetryFactor": 28,
+      "transactionFactor": 28,
+      "behaviorFactor": 36,
+      "updatedAt": "2026-07-16T06:50:19.452Z"
+    },
+    {
+      "id": "rs2",
+      "userId": "u7",
+      "username": "Elena Rostova",
+      "score": 68,
+      "tier": "HIGH",
+      "telemetryFactor": 15,
+      "transactionFactor": 23,
+      "behaviorFactor": 30,
+      "updatedAt": "2026-07-15T19:00:19.452Z"
+    },
+    {
+      "id": "rs3",
+      "userId": "u6",
+      "username": "Michael Chang",
+      "score": 12,
+      "tier": "LOW",
+      "telemetryFactor": 4,
+      "transactionFactor": 3,
+      "behaviorFactor": 5,
+      "updatedAt": "2026-07-16T03:00:19.452Z"
+    }
+  ],
+  "quantumAlerts": [
+    {
+      "id": "qa1",
+      "assetName": "Core SWIFT Channel Gateway",
+      "vulnerabilityType": "Harvest-Now-Decrypt-Later (HNDL)",
+      "cryptoStandard": "RSA-2048",
+      "recommendedMigration": "Kyber-768 (ML-KEM) Post-Quantum Cryptography",
+      "riskLevel": "Critical",
+      "timestamp": "2026-07-16T04:00:19.452Z",
+      "status": "Vulnerable"
+    },
+    {
+      "id": "qa2",
+      "assetName": "Customer Credentials DB",
+      "vulnerabilityType": "Symmetric Cryptography Weakness",
+      "cryptoStandard": "Triple DES (3DES)",
+      "recommendedMigration": "AES-256-GCM / ML-DSA",
+      "riskLevel": "High",
+      "timestamp": "2026-07-16T02:00:19.452Z",
+      "status": "Mitigating"
+    },
+    {
+      "id": "qa3",
+      "assetName": "Active Session SSL Handshakes",
+      "vulnerabilityType": "Weak Classical Key Exchange",
+      "cryptoStandard": "ECDH-P256",
+      "recommendedMigration": "X25519Kyber768 Draft Hybrid standard",
+      "riskLevel": "High",
+      "timestamp": "2026-07-15T16:00:19.452Z",
+      "status": "Vulnerable"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "al_53r0m9kgz",
+      "actor": "aakash-ahu",
+      "role": "Security Analyst",
+      "action": "Alert Resolution",
+      "details": "Resolved security alert th6106 (Transaction Fraud Indicator)",
+      "ipAddress": "::ffff:127.0.0.1",
+      "timestamp": "2026-07-16T07:37:51.726Z"
+    },
+    {
+      "id": "al_6kn9ruo4w",
+      "actor": "aakash-ahu",
+      "role": "Security Analyst",
+      "action": "Alert Resolution",
+      "details": "Resolved security alert th1322 (Unusual Login Pattern)",
+      "ipAddress": "::ffff:127.0.0.1",
+      "timestamp": "2026-07-16T07:33:41.314Z"
+    },
+    {
+      "id": "al_5k5mhyw3s",
+      "actor": "aakash-ahu",
+      "role": "Security Analyst",
+      "action": "Alert Resolution",
+      "details": "Resolved security alert th1322 (Unusual Login Pattern)",
+      "ipAddress": "::ffff:127.0.0.1",
+      "timestamp": "2026-07-16T07:33:40.531Z"
+    },
+    {
+      "id": "al_h6tc49kw3",
+      "actor": "aakash-ahu",
+      "role": "Security Analyst",
+      "action": "Report Generation",
+      "details": "Generated PDF report: Weekly Cryptographic Ageing Audit",
+      "ipAddress": "::ffff:127.0.0.1",
+      "timestamp": "2026-07-16T07:31:33.840Z"
+    },
+    {
+      "id": "al_8yi978qs1",
+      "actor": "System",
+      "role": "System",
+      "action": "User Registered",
+      "details": "User aakash_ahu created with role Security Analyst",
+      "ipAddress": "::ffff:127.0.0.1",
+      "timestamp": "2026-07-16T07:14:53.212Z"
+    },
+    {
+      "id": "al_h6mxss5nt",
+      "actor": "System",
+      "role": "System",
+      "action": "User Registered",
+      "details": "User aakash-ahu created with role Security Analyst",
+      "ipAddress": "::ffff:127.0.0.1",
+      "timestamp": "2026-07-16T07:13:19.759Z"
+    },
+    {
+      "id": "al1",
+      "actor": "admin",
+      "role": "Admin",
+      "action": "System Config Modified",
+      "details": "Updated quantum risk threat detection sensitivity to high",
+      "ipAddress": "192.168.1.10",
+      "timestamp": "2026-07-16T02:00:19.452Z"
+    },
+    {
+      "id": "al2",
+      "actor": "analyst_sec",
+      "role": "Security Analyst",
+      "action": "Threat Resolution",
+      "details": "Resolved threat alert th1 (Brute force IP blocked)",
+      "ipAddress": "192.168.1.12",
+      "timestamp": "2026-07-16T06:40:19.452Z"
+    }
+  ],
+  "loginActivities": [
+    {
+      "id": "la84142",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.126",
+      "location": "London, UK",
+      "device": "Linux Machine",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:54:39.555Z"
+    },
+    {
+      "id": "la83550",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.71",
+      "location": "London, UK",
+      "device": "iPhone 15",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:54:27.557Z"
+    },
+    {
+      "id": "la68356",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.201",
+      "location": "Beijing, CN",
+      "device": "iPhone 15",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:54:18.805Z"
+    },
+    {
+      "id": "la19489",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.235",
+      "location": "Moscow, RU",
+      "device": "iPhone 15",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:54:09.347Z"
+    },
+    {
+      "id": "la19618",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.97",
+      "location": "London, UK",
+      "device": "Macbook Pro",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:53:57.449Z"
+    },
+    {
+      "id": "la74680",
+      "username": "admin",
+      "status": "Failed",
+      "ipAddress": "203.0.113.116",
+      "location": "London, UK",
+      "device": "iPhone 15",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:53:45.449Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la4732",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.232",
+      "location": "London, UK",
+      "device": "Android Node",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:53:42.803Z"
+    },
+    {
+      "id": "la97076",
+      "username": "guest_user",
+      "status": "Success",
+      "ipAddress": "203.0.113.221",
+      "location": "Moscow, RU",
+      "device": "iPhone 15",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:53:39.549Z"
+    },
+    {
+      "id": "la53968",
+      "username": "user_john",
+      "status": "Failed",
+      "ipAddress": "203.0.113.130",
+      "location": "New York, USA",
+      "device": "Linux Machine",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:53:33.344Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la55504",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.115",
+      "location": "New York, USA",
+      "device": "iPhone 15",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:53:03.550Z"
+    },
+    {
+      "id": "la94327",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.250",
+      "location": "Beijing, CN",
+      "device": "iPhone 15",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:52:57.342Z"
+    },
+    {
+      "id": "la30814",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.219",
+      "location": "New York, USA",
+      "device": "Linux Machine",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:52:21.339Z"
+    },
+    {
+      "id": "la46627",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.135",
+      "location": "Moscow, RU",
+      "device": "iPhone 15",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:52:15.545Z"
+    },
+    {
+      "id": "la42534",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.173",
+      "location": "London, UK",
+      "device": "Linux Machine",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:51:51.546Z"
+    },
+    {
+      "id": "la75920",
+      "username": "user_john",
+      "status": "Failed",
+      "ipAddress": "203.0.113.26",
+      "location": "Beijing, CN",
+      "device": "Linux Machine",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:51:39.543Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la71626",
+      "username": "admin",
+      "status": "Failed",
+      "ipAddress": "203.0.113.124",
+      "location": "Moscow, RU",
+      "device": "Macbook Pro",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:51:09.438Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la70873",
+      "username": "guest_user",
+      "status": "Success",
+      "ipAddress": "203.0.113.147",
+      "location": "Beijing, CN",
+      "device": "Macbook Pro",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:50:39.538Z"
+    },
+    {
+      "id": "la39386",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.68",
+      "location": "London, UK",
+      "device": "Linux Machine",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:50:33.437Z"
+    },
+    {
+      "id": "la35009",
+      "username": "sarah_jenkins",
+      "status": "Failed",
+      "ipAddress": "203.0.113.85",
+      "location": "Beijing, CN",
+      "device": "Macbook Pro",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:50:21.332Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la29113",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.36",
+      "location": "London, UK",
+      "device": "Macbook Pro",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:50:18.790Z"
+    },
+    {
+      "id": "la15045",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.185",
+      "location": "Beijing, CN",
+      "device": "Macbook Pro",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:50:15.539Z"
+    },
+    {
+      "id": "la62112",
+      "username": "admin",
+      "status": "Failed",
+      "ipAddress": "203.0.113.193",
+      "location": "Beijing, CN",
+      "device": "Linux Machine",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:50:15.537Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la50796",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.102",
+      "location": "Moscow, RU",
+      "device": "iPhone 15",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:50:03.535Z"
+    },
+    {
+      "id": "la3442",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.24",
+      "location": "Moscow, RU",
+      "device": "Macbook Pro",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:49:51.538Z"
+    },
+    {
+      "id": "la78422",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.243",
+      "location": "Beijing, CN",
+      "device": "Macbook Pro",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:49:51.534Z"
+    },
+    {
+      "id": "la16956",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.172",
+      "location": "London, UK",
+      "device": "iPhone 15",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:49:30.785Z"
+    },
+    {
+      "id": "la95705",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.241",
+      "location": "Moscow, RU",
+      "device": "Macbook Pro",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:49:06.783Z"
+    },
+    {
+      "id": "la85665",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.229",
+      "location": "Moscow, RU",
+      "device": "Android Node",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:48:54.782Z"
+    },
+    {
+      "id": "la13938",
+      "username": "guest_user",
+      "status": "Success",
+      "ipAddress": "203.0.113.84",
+      "location": "Beijing, CN",
+      "device": "Android Node",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:48:51.535Z"
+    },
+    {
+      "id": "la34808",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.150",
+      "location": "New York, USA",
+      "device": "iPhone 15",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:48:51.533Z"
+    },
+    {
+      "id": "la72159",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.1",
+      "location": "Beijing, CN",
+      "device": "iPhone 15",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:48:21.429Z"
+    },
+    {
+      "id": "la99922",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.215",
+      "location": "Beijing, CN",
+      "device": "iPhone 15",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:48:18.779Z"
+    },
+    {
+      "id": "la33473",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.13",
+      "location": "Beijing, CN",
+      "device": "iPhone 15",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:47:51.529Z"
+    },
+    {
+      "id": "la20597",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.237",
+      "location": "Moscow, RU",
+      "device": "iPhone 15",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:47:42.777Z"
+    },
+    {
+      "id": "la99956",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.153",
+      "location": "London, UK",
+      "device": "Android Node",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:47:33.319Z"
+    },
+    {
+      "id": "la36097",
+      "username": "guest_user",
+      "status": "Success",
+      "ipAddress": "203.0.113.87",
+      "location": "Moscow, RU",
+      "device": "Android Node",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:47:15.527Z"
+    },
+    {
+      "id": "la62917",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.130",
+      "location": "London, UK",
+      "device": "iPhone 15",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:47:06.775Z"
+    },
+    {
+      "id": "la47809",
+      "username": "guest_user",
+      "status": "Success",
+      "ipAddress": "203.0.113.39",
+      "location": "New York, USA",
+      "device": "iPhone 15",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:46:51.525Z"
+    },
+    {
+      "id": "la92523",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.25",
+      "location": "Moscow, RU",
+      "device": "Linux Machine",
+      "browser": "Chrome v123",
+      "timestamp": "2026-07-16T07:46:42.774Z"
+    },
+    {
+      "id": "la57653",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.67",
+      "location": "Beijing, CN",
+      "device": "Android Node",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:46:33.425Z"
+    },
+    {
+      "id": "la65021",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.239",
+      "location": "London, UK",
+      "device": "Macbook Pro",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:45:57.424Z"
+    },
+    {
+      "id": "la12335",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.235",
+      "location": "New York, USA",
+      "device": "Android Node",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:45:30.769Z"
+    },
+    {
+      "id": "la7712",
+      "username": "guest_user",
+      "status": "Success",
+      "ipAddress": "203.0.113.6",
+      "location": "New York, USA",
+      "device": "Android Node",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:45:27.520Z"
+    },
+    {
+      "id": "la24793",
+      "username": "admin",
+      "status": "Failed",
+      "ipAddress": "203.0.113.54",
+      "location": "London, UK",
+      "device": "iPhone 15",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:45:15.520Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la75719",
+      "username": "admin",
+      "status": "Success",
+      "ipAddress": "203.0.113.233",
+      "location": "Moscow, RU",
+      "device": "Android Node",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:44:45.308Z"
+    },
+    {
+      "id": "la4433",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.245",
+      "location": "Beijing, CN",
+      "device": "Android Node",
+      "browser": "Firefox v120",
+      "timestamp": "2026-07-16T07:44:21.419Z"
+    },
+    {
+      "id": "la84012",
+      "username": "user_john",
+      "status": "Success",
+      "ipAddress": "203.0.113.44",
+      "location": "New York, USA",
+      "device": "Android Node",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:44:18.763Z"
+    },
+    {
+      "id": "la84403",
+      "username": "user_john",
+      "status": "Failed",
+      "ipAddress": "203.0.113.1",
+      "location": "Beijing, CN",
+      "device": "Linux Machine",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:44:15.514Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la49620",
+      "username": "sarah_jenkins",
+      "status": "Failed",
+      "ipAddress": "203.0.113.117",
+      "location": "New York, USA",
+      "device": "Linux Machine",
+      "browser": "Headless Chrome",
+      "timestamp": "2026-07-16T07:44:09.306Z",
+      "failureReason": "Multiple password authentication mismatches"
+    },
+    {
+      "id": "la1174",
+      "username": "sarah_jenkins",
+      "status": "Success",
+      "ipAddress": "203.0.113.67",
+      "location": "New York, USA",
+      "device": "Linux Machine",
+      "browser": "Safari v17",
+      "timestamp": "2026-07-16T07:44:06.763Z"
+    },
+    {
+      "id": "la_fbp2e6oeo",
+      "username": "aakash-ahu",
+      "status": "Success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "location": "Office Terminal",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "browser": "Chrome v122",
+      "timestamp": "2026-07-16T07:43:54.558Z"
+    }
+  ],
+  "deviceInfos": [
+    {
+      "id": "di1",
+      "userId": "u1",
+      "deviceFingerprint": "dev_82fa1bb329",
+      "os": "Windows 11",
+      "browser": "Chrome v122",
+      "isTrusted": true,
+      "lastUsedAt": "2026-07-16T07:00:19.452Z"
+    },
+    {
+      "id": "di2",
+      "userId": "u5",
+      "deviceFingerprint": "dev_88fa7b22a0",
+      "os": "macOS Sonoma",
+      "browser": "Safari v17",
+      "isTrusted": true,
+      "lastUsedAt": "2026-07-16T05:00:19.452Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep751",
+      "title": "Weekly Cryptographic Ageing Audit",
+      "type": "Quantum",
+      "format": "PDF",
+      "generatedBy": "aakash-ahu",
+      "timestamp": "2026-07-16T07:31:33.840Z",
+      "size": "2.8 MB"
+    },
+    {
+      "id": "rep1",
+      "title": "Q2 Cybersecurity & Cryptographic Health Report",
+      "type": "Quantum",
+      "format": "PDF",
+      "generatedBy": "analyst_sec",
+      "timestamp": "2026-07-13T07:00:19.452Z",
+      "size": "2.4 MB"
+    },
+    {
+      "id": "rep2",
+      "title": "Weekly Fraud and Correlation Analysis Logs",
+      "type": "Fraud",
+      "format": "CSV",
+      "generatedBy": "analyst_fraud",
+      "timestamp": "2026-07-15T07:00:19.452Z",
+      "size": "412 KB"
+    }
+  ]
+}
